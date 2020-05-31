@@ -1,4 +1,4 @@
-/* 
+
 
 *{
     padding: 0;
@@ -20,12 +20,23 @@
     padding-top: 0px;
 }
 
-.features{
+/* .features{
     width: 1170px;
     height: 251px;
     padding-left: 215px;
     padding-right: 215px;
     padding-top: 94px;
+} */
+
+figure{
+    background: #fff; /* Цвет фона */
+    padding: 10px; /* Поля вокруг */
+    display: block; /* Блочный элемент */
+    width: 270px; /* Ширина */
+    height: 251px; /*Высота */
+    float: left; /* Блоки выстраиваются по горизонтали */
+    margin: 0 10px 10px 0; /* Отступы */
+    text-align: center; /* Выравнивание по центру */
 }
 
 .tech-skills{
@@ -37,26 +48,35 @@
 }
 
 .our-team{
+    position: absolute;
     width: 1600px;
     height: 702px;
-    padding-left: 0px;
-    padding-top: 9px;
+    left: 0px;
+    top: 1693px;    
+    background: #F5F4FA;
+}
+
+.team{
+    position: absolute;
+    width: 1170px;
+    height: 422px;
+    left: 215px;
+    top: 1879px;
 }
 
 .our-team-title{
-    width: 264px;
+    position: absolute;
+    width: 350px;
     height: 42px;
-    padding-left: 668px;
-    padding-top: 1787px;
-
+    left: 668px;
+    /* top: 1787px; */
+    
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-
+    text-align: center;  
     color: #212121;
 }
 
@@ -66,6 +86,7 @@
     height: 422px;
     left: 215px;
     top: 0px;
+    float: left;
 }
 
 .team-card-2{
@@ -73,20 +94,23 @@
     height: 422px;
     left: 515px;
     top: 0px;
+    float: left;
 }
 
 .team-card-3{
     width: 270px;
     height: 422px;
     left: 815px;
-    -top: 0px;
+    top: 0px;
+    float: left;
 }
 
 .team-card-4{
     width: 270px;
     height: 422px;
-    padding-left: 1115px;
-    padding-top: 0px;
+    left: 1115px;
+    top: 0px;
+    float: left;
 }
 
 .our-client{
@@ -101,4 +125,4 @@
     height: 253px;
     padding-left: 0px;
     padding-top: 2773px;
-} */
+}
