@@ -1,21 +1,47 @@
-
 /* 
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-} */
+}
 
-/* .our-team{
-    position: absolute;
+.top-line{
+    width: 1600px;
+    height: 81px;
+    left: 0px;
+    top: 0px;
+}
+
+.header{
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+}
+
+.features{
+    width: 1170px;
+    height: 251px;
+    left: 215px;
+    top: 774px;  
+}
+
+.tech-skills{
+    width: 1170px;
+    height: 386px;
+    left: 215px;
+    top: 1213px;    
+}
+
+.our-team{
     width: 1600px;
     height: 702px;
     left: 0px;
     top: 1693px;
-} */
+}
 
-/* .our-team-title{
-    position: absolute;
+.our-team-title{
     width: 264px;
     height: 42px;
     left: 668px;
@@ -30,11 +56,10 @@
     letter-spacing: 0.03em;
 
     color: #212121;
-} */
+}
 
-/* 
+
 .team-card-1{
-    position: absolute;
     width: 270px;
     height: 422px;
     left: 215px;
@@ -42,7 +67,6 @@
 }
 
 .team-card-2{
-    position: absolute;
     width: 270px;
     height: 422px;
     left: 515px;
@@ -50,7 +74,6 @@
 }
 
 .team-card-3{
-    position: absolute;
     width: 270px;
     height: 422px;
     left: 815px;
@@ -58,9 +81,22 @@
 }
 
 .team-card-4{
-    position: absolute;
     width: 270px;
     height: 422px;
     left: 1115px;
     top: 1879px;
+}
+
+.our-client{
+    width: 1170px;
+    height: 182px;
+    left: 215px;
+    top: 2489px;
+}
+
+.footer{
+    width: 1600px;
+    height: 253px;
+    left: 0px;
+    top: 2773px;
 } */
