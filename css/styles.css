@@ -20,15 +20,17 @@
     padding-top: 0px;
 }
 
-/* .features{
-    width: 1170px;
+.features{
+    width: 1570px;
     height: 251px;
     padding-left: 215px;
     padding-right: 215px;
     padding-top: 94px;
-} */
+    float: left;
+    text-align: center;
+}
 
-figure{
+.features-1{
     background: #fff; /* Цвет фона */
     padding: 10px; /* Поля вокруг */
     display: block; /* Блочный элемент */
@@ -39,12 +41,52 @@ figure{
     text-align: center; /* Выравнивание по центру */
 }
 
+.features-2{
+    background: #fff; /* Цвет фона */
+    padding: 10px; /* Поля вокруг */
+    display: block; /* Блочный элемент */
+    width: 270px; /* Ширина */
+    height: 251px; /*Высота */
+    float: left; /* Блоки выстраиваются по горизонтали */
+    margin: 0 10px 10px 0; /* Отступы */
+    text-align: center; /* Выравнивание по центру */
+}
+
+.features-3{
+    background: #fff; /* Цвет фона */
+    padding: 10px; /* Поля вокруг */
+    display: block; /* Блочный элемент */
+    width: 270px; /* Ширина */
+    height: 251px; /*Высота */
+    float: left; /* Блоки выстраиваются по горизонтали */
+    margin: 0 10px 10px 0; /* Отступы */
+    text-align: center; /* Выравнивание по центру */
+}
+.features-4{
+    background: #fff; /* Цвет фона */
+    padding: 10px; /* Поля вокруг */
+    display: block; /* Блочный элемент */
+    width: 270px; /* Ширина */
+    height: 251px; /*Высота */
+    float: left; /* Блоки выстраиваются по горизонтали */
+    margin: 0 10px 10px 0; /* Отступы */
+    text-align: center; /* Выравнивание по центру */
+}
 .tech-skills{
-    width: 1170px;
+    width: 1550px;
     height: 386px;
     padding-left: 215px;
-    padding-top: 288px;
-    
+    padding-right: 215px;
+    padding-top: 400px;   
+}
+
+.tech-skills-title{
+    width: 806px;
+    height: 42px;
+    padding-left: 450px;
+    line-height: 30px;
+    margin-bottom: 45px;
+    color: #212121;    
 }
 
 .our-team{
@@ -52,7 +94,7 @@ figure{
     width: 1600px;
     height: 702px;
     left: 0px;
-    top: 1693px;    
+    top: 1563px;    
     background: #F5F4FA;
 }
 
@@ -61,7 +103,7 @@ figure{
     width: 1170px;
     height: 422px;
     left: 215px;
-    top: 1879px;
+    top: 186px;
 }
 
 .our-team-title{
@@ -69,12 +111,7 @@ figure{
     width: 350px;
     height: 42px;
     left: 668px;
-    /* top: 1787px; */
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
+    top: 94px;
     line-height: 42px;
     text-align: center;  
     color: #212121;
@@ -84,6 +121,7 @@ figure{
 .team-card-1{
     width: 270px;
     height: 422px;
+    padding: 10px;
     left: 215px;
     top: 0px;
     float: left;
@@ -92,6 +130,7 @@ figure{
 .team-card-2{
     width: 270px;
     height: 422px;
+    padding: 10px;
     left: 515px;
     top: 0px;
     float: left;
@@ -100,6 +139,7 @@ figure{
 .team-card-3{
     width: 270px;
     height: 422px;
+    padding: 10px;
     left: 815px;
     top: 0px;
     float: left;
@@ -108,21 +148,25 @@ figure{
 .team-card-4{
     width: 270px;
     height: 422px;
+    padding: 10px;
     left: 1115px;
     top: 0px;
     float: left;
 }
 
 .our-client{
+    position: absolute;
     width: 1170px;
     height: 182px;
-    padding-left: 215px;
-    padding-top: 2489px;
+    left: 215px;
+    top: 2289px;
 }
 
 .footer{
+    position: absolute;
     width: 1600px;
     height: 253px;
-    padding-left: 0px;
-    padding-top: 2773px;
+    left: 0px;
+    top: 2473px;
+    
 }
