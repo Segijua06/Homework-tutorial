@@ -1,4 +1,4 @@
-/* 
+
 
 *{
     padding: 0;
@@ -168,8 +168,52 @@
     width: 1600px;
     height: 253px;
     left: 0px;
-    top: 2473px;    
+    top: 2473px; 
+    background: #2F303A;   
 } 
+
+.footer-container{
+    padding-top: 48px;
+    padding-left: 215px;
+}
+
+.footer-contacts{
+    width: 231px;
+    height: 181px;
+    left: 215px;
+    top: 2849px;
+    float: left;
+}
+
+.add-social-network{
+    width: 206px;
+    height: 81px;
+    padding-left: 89px;
+    top: 2821px;
+    float: left;
+}
+
+.add-social-network-title{
+    color: #fff;
+}
+
+.web{
+    color: blue;
+}
+
+.subscription{
+    width: 900px;
+    height: 120px;
+    padding-left: 94px;
+    float: left;
+}
+
+.footer-year{
+    width: 410px;
+    height: 21px;
+    margin-left: 646px;
+    color: rgba(255, 255, 255, 0.4);
+}
 
 
 /* 
@@ -180,4 +224,4 @@ width: 270px; Ширина
 height: 251px; Высота
 float: left; Блоки выстраиваются по горизонтали
 margin: 0 10px 10px 0; Отступы
-text-align: center; Выравнивание по центру */ */
+text-align: center; Выравнивание по центру */
