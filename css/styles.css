@@ -9,43 +9,45 @@
 .top-line{
     width: 1600px;
     height: 81px;
-    left: 0px;
-    top: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
 }
 
 .header{
     width: 1600px;
     height: 600px;
-    left: 0px;
-    top: 80px;
+    padding-left: 0px;
+    padding-top: 0px;
 }
 
 .features{
     width: 1170px;
     height: 251px;
-    left: 215px;
-    top: 774px;  
+    padding-left: 215px;
+    padding-right: 215px;
+    padding-top: 94px;
 }
 
 .tech-skills{
     width: 1170px;
     height: 386px;
-    left: 215px;
-    top: 1213px;    
+    padding-left: 215px;
+    padding-top: 288px;
+    
 }
 
 .our-team{
     width: 1600px;
     height: 702px;
-    left: 0px;
-    top: 1693px;
+    padding-left: 0px;
+    padding-top: 9px;
 }
 
 .our-team-title{
     width: 264px;
     height: 42px;
-    left: 668px;
-    top: 1787px;
+    padding-left: 668px;
+    padding-top: 1787px;
 
     font-family: Roboto;
     font-style: normal;
@@ -62,41 +64,41 @@
 .team-card-1{
     width: 270px;
     height: 422px;
-    left: 215px;
-    top: 1879px;
+    padding-left: 215px;
+    padding-top: 0px;
 }
 
 .team-card-2{
     width: 270px;
     height: 422px;
-    left: 515px;
-    top: 1879px;
+    padding-left: 515px;
+    padding-top: 0px;
 }
 
 .team-card-3{
     width: 270px;
     height: 422px;
-    left: 815px;
-    top: 1879px;
+    padding-left: 815px;
+    padding-top: 0px;
 }
 
 .team-card-4{
     width: 270px;
     height: 422px;
-    left: 1115px;
-    top: 1879px;
+    padding-left: 1115px;
+    padding-top: 0px;
 }
 
 .our-client{
     width: 1170px;
     height: 182px;
-    left: 215px;
-    top: 2489px;
+    padding-left: 215px;
+    padding-top: 2489px;
 }
 
 .footer{
     width: 1600px;
     height: 253px;
-    left: 0px;
-    top: 2773px;
+    padding-left: 0px;
+    padding-top: 2773px;
 } */
