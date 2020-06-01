@@ -1,4 +1,4 @@
-
+/* 
 
 *{
     padding: 0;
@@ -11,6 +11,30 @@
     height: 81px;
     padding-left: 0px;
     padding-top: 0px;
+}
+
+.header-nav{
+    padding-left: 215px;
+    padding-top: 32px;
+    float: left;
+}
+
+.header-nav-item{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.header-contacts{
+    padding-right: 215px;
+}
+
+.header-contacts-item{
+    padding-top: 32px;
+    margin: 5px;
+    display: inline-block;
+    float: right;
+    color: silver;
 }
 
 .main{
@@ -197,10 +221,6 @@
     color: #fff;
 }
 
-.web{
-    color: blue;
-}
-
 .subscription{
     width: 900px;
     height: 120px;
@@ -224,4 +244,4 @@ width: 270px; Ширина
 height: 251px; Высота
 float: left; Блоки выстраиваются по горизонтали
 margin: 0 10px 10px 0; Отступы
-text-align: center; Выравнивание по центру */
+text-align: center; Выравнивание по центру */ */
