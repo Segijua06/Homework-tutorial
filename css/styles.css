@@ -16,8 +16,8 @@ body{
 .header{
     width: 1600px;
     height: 81px;
-    padding-left: 0px;
-    padding-top: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 .header-nav{
@@ -38,7 +38,6 @@ body{
 
 .header-contacts-item{
     padding-top: 32px;
-    margin: 5px;
     display: inline-block;
     float: right;
     color: silver;
@@ -135,7 +134,7 @@ body{
     width: 1570px;
     height: 422px;
     padding-left: 215px;
-    padding-top: 186px;
+    padding-top: 116px;
 }
 
 .our-team-title{
@@ -150,7 +149,6 @@ body{
 
 
 .team-card-1{
-    width: 270px;
     height: 422px;
     padding: 10px;
     left: 215px;
@@ -158,8 +156,13 @@ body{
     float: left;
 }
 
+.team-card-1-description{
+    height: 162px;
+    background-color: #fff;
+    text-align: center;
+}
+
 .team-card-2{
-    width: 270px;
     height: 422px;
     padding: 10px;
     left: 515px;
@@ -167,8 +170,13 @@ body{
     float: left;
 }
 
+.team-card-2-description{
+    height: 162px;
+    background-color: #fff;
+    text-align: center;
+}
+
 .team-card-3{
-    width: 270px;
     height: 422px;
     padding: 10px;
     left: 815px;
@@ -176,8 +184,13 @@ body{
     float: left;
 }
 
+.team-card-3-description{
+    height: 162px;
+    background-color: #fff;
+    text-align: center;
+}
+
 .team-card-4{
-    width: 270px;
     height: 422px;
     padding: 10px;
     left: 1115px;
@@ -185,6 +198,11 @@ body{
     float: left;
 }
 
+.team-card-4-description{
+    height: 162px;
+    background-color: #fff;
+    text-align: center;
+}
 .our-client{
     position: absolute;
     width: 1170px;
