@@ -15,6 +15,13 @@ a {
     text-decoration: none;  /*Убирает подчеткивание в ссылок*/
 }
 
+.link {
+    color: black;
+  }
+  
+  .link:hover {
+    color: teal;
+  }
 
 .header{
     width: 1600px;
